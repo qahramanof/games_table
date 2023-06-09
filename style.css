@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#gameTable {
+    border-collapse: collapse;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#gameTable td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#gameTable td:hover {
+    background-color: #f2f2f2;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
